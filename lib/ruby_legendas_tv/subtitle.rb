@@ -26,7 +26,7 @@ class Subtitle
         movie_title = info.css('h3').text
         movie_description = info.css('h5').text
         movie_sinopsis = info.css('div.t1').css('p').text
-        movie_img = info.css('img').attr('src')
+        movie_img = info.css('img').attr('src').text
 
         movie = Movie.new(movie_title, movie_description, movie_sinopsis, movie_img)
 

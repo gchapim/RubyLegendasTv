@@ -8,7 +8,7 @@ class WebsiteUtils
       items_div = document.css('div.gallery').css('article').children
       #puts items_div.inspect
       items_div.each{|link|
-       links[link.css('a').attr('href').text] = link.css('img').attr('title')
+       links[link.css('a').attr('href').text] = link.css('img').attr('title').text
       }
       links
     end
