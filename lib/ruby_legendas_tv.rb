@@ -2,12 +2,12 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 
-load 'lib/ruby_legendas_tv/home_parser.rb'
-load 'lib/ruby_legendas_tv/movie.rb'
-load 'lib/ruby_legendas_tv/search_engine.rb'
-load 'lib/ruby_legendas_tv/subtitle.rb'
-load 'lib/ruby_legendas_tv/title.rb'
-load 'lib/ruby_legendas_tv/website_utils.rb'
+load 'ruby_legendas_tv/home_parser'
+load 'ruby_legendas_tv/movie'
+load 'ruby_legendas_tv/search_engine'
+load 'ruby_legendas_tv/subtitle'
+load 'ruby_legendas_tv/title'
+load 'ruby_legendas_tv/website_utils'
 
 class RubyLegendasTv
 
