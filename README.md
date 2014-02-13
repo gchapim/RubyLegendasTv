@@ -1,7 +1,9 @@
 RubyLegendasTv
 ==============
 
-An API for [LegendasTv](http://legendas.tv/)'s 2013 Website.
+A Ruby API implementation for [LegendasTv](http://legendas.tv/)'s 2013 Website.
+
+You can now search and download subtitles from Legendas.tv
 
 Install:
 <pre><code>gem install ruby_legendas_tv</code></pre>
